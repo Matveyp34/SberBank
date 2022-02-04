@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto:wght@300;400;700&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+   text-decoration: none;
+   box-sizing: border-box;
+   border: none;
+   outline: none;
+   font-family: Roboto;
+}
+
+.container{
+   width: 80%;
+   margin: auto;
+}
+
+#green{
+   color: #08a652;
+}
+
+.bold{
+   font-weight: 700;
+}
+
+hr{
+   background-color: #e6e9e2;
+   height: 1px;
+   width: 100%;
+   position: absolute;
+   left: 0;
+}
+
+.menu{
+   display: flex;
+   justify-content: space-evenly;
+   padding: 15px;
+}
+
+
+.menu a{
+   font-size: 12px;
+   line-height: 18px;
+   color: black;
+}
+
+.submenu{
+   padding: 10px 0 50px;
+   user-select: none;
+}
+
+.submenu-img{
+    width: 28px;
+    height: 28px;
+    display: block;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+.submenu li{
+   text-align: center;
+   width: 8%;
+}
+
+.submenu ul{
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.submenu a{
+   color: black;
+}
+
+.submenu li:hover{
+   filter: grayscale(100%);
+}
+
+.slider{
+   background: linear-gradient(90.51deg, #004085 -1.11%, #20D9B2 99.72%);
+   width: 100%;
+   height: 380px;
+   position: absolute;
+   left: 0;
+}
+
+.slider img{
+   height: 380px;
+}
+
+.slider-item-text button{
+   width: 182px;
+   height: 46px;
+   border: 1px solid #FFFFFF;
+   box-sizing: border-box;
+   border-radius: 5px;
+   background-color: transparent;
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 18px;
+   line-height: 32px;
+   /* identical to box height, or 178% */
+   letter-spacing: 0.03em;
+   color: #FFFFFF;
+   display: block;
+   margin-top: 10px;
+}
+
+.slider-item{
+   display: grid;
+   grid-template-columns: 60% 40%;
+   width: 80%;
+   margin: auto;
+}
+
+.slider-item-text h1{
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 36px;
+   line-height: 48px;
+   /* or 133% */
+   letter-spacing: 0.03em;
+   color: #FFFFFF;
+   margin: 15px 0;
+}
+
+.slider-item-text h3{
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 21px;
+   line-height: 32px;
+   /* or 152% */
+   letter-spacing: 0.03em;
+   color: #FFFFFF;
+   margin: 15px 0;
+}
+
+.slider-item-text{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+}
+
+
+.recomend{
+   margin: 420px 0px 50px 0px;
+}
+
+section > h3{
+   font-size: 24px;
+   margin-bottom: 50px;
+}
+
+.card{
+   width: 30%;
+   border-radius: 20px;
+}
+
+.recomend .card{
+   border: rgba(0, 0, 0, 25%) solid 1px;
+}
+
+.card-content{
+   padding: 0px 20px 20px 20px;
+   border-radius: 0px 0px 20px 20px;
+}
+
+.card img{
+   width: 100%;
+   border-radius: 20px 20px 0px 0px;
+}
+
+.card-content > *{
+   margin: 15px 0;
+}
+
+.card button{
+   padding: 15px 0;
+   width: 100%;
+   border-radius: 10px;
+   border: rgba( 0, 0, 0, 25%) 1px solid;
+   background-color: transparent;
+}
+
+.card-img{
+   position: relative;
+}
+
+.card a{
+   color: #08A652;
+   width: 50%;
+   text-align: center;
+}
+
+.card-content div{
+   display: grid;
+   grid-template-columns: 50% 50%;
+   grid-column-gap: 10px;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+
+.cards{
+   display: flex;
+   justify-content: space-between;
+}
+
+.useful img{
+   border-radius: 20px;
+   margin-bottom: 15px;
+}
+
